@@ -1,5 +1,4 @@
-export function setFooterYear() {
+export function setFooterYear(element: HTMLElement | null) {
   const year = new Date().getFullYear();
-  const footerYear = document.querySelector('[eigo="footerYear"]');
-  if (footerYear) footerYear.textContent = year.toString();
+  if (element) element.textContent = year.toString();
 }

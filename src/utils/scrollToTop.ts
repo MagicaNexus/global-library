@@ -1,6 +1,5 @@
-export function scrollToTop() {
-  const scrollToTopButton = document.querySelector('[eigo="scroll-to-top"]');
-  if (scrollToTopButton) {
+export function scrollToTop(element: HTMLElement | null) {
+  if (element) {
     const scrollToTop = () => {
       const c = document.documentElement.scrollTop || document.body.scrollTop;
       if (c > 0) {
@@ -10,7 +9,7 @@ export function scrollToTop() {
     };
 
     // Attach event listener to scrollToTopButton
-    scrollToTopButton.addEventListener('click', () => {
+    element.addEventListener('click', () => {
       scrollToTop();
     });
   }

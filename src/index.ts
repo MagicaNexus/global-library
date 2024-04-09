@@ -5,13 +5,13 @@ import { setFooterYear } from '$utils/footerYear';
 import { scrollToTop } from '$utils/scrollToTop';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const footerYearAttribute = document.querySelector('[eigo="footerYear"]');
-  const scrollToTopAttribute = document.body.getAttribute('data-scroll-to-top');
+  const footerYearElement = document.querySelector('[eigo="footer-year"]');
+  const scrollToTopElement = document.querySelector('[eigo="scroll-to-top"]');
 
-  if (footerYearAttribute) {
-    setFooterYear();
+  if (footerYearElement) {
+    setFooterYear(footerYearElement);
   }
-  if (scrollToTopAttribute === 'true') {
-    scrollToTop();
+  if (scrollToTopElement) {
+    scrollToTop(scrollToTopElement);
   }
 });
