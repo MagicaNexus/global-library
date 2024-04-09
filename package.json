@@ -1,8 +1,8 @@
 {
-  "name": "@eigo/eigo-starter",
+  "name": "@eigo/global-library",
   "version": "0.0.0",
-  "description": "Developer starter template for EIGO projects.",
-  "homepage": "https://github.com/MagicaNexus/eigo-starter#readme",
+  "description": "Global library for EIGO websites.",
+  "homepage": "https://github.com/MagicaNexus/global-library#readme",
   "license": "ISC",
   "keywords": [],
   "author": {
@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MagicaNexus/eigo-starter.git"
+    "url": "git+https://github.com/MagicaNexus/global-library.git"
   },
   "bugs": {
-    "url": "https://github.com/finsweet/eigo-starter/issues"
+    "url": "https://github.com/finsweet/global-library/issues"
   },
   "type": "module",
   "main": "src/index.ts",
