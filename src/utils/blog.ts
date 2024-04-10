@@ -11,7 +11,7 @@ export function setHeaderStyles(element: HTMLElement | null): void {
   if (!element) return;
 
   const headers = [
-    { selector: 'h2', className: 'heading-style-h4' },
+    { selector: 'h2', className: 'heading-style-h3' },
     { selector: 'h3', className: 'heading-style-h5' },
     { selector: 'h4', className: 'heading-style-h6' },
   ];
