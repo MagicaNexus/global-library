@@ -1,5 +1,11 @@
 # @eigo/global-library
 
+## 1.0.4
+
+### Patch Changes
+
+- e016804: Add header style
+
 ## 1.0.3
 
 ### Patch Changes
