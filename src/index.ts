@@ -1,9 +1,9 @@
 // Description: This file is the entry point for the Webflow projectt
 // It includes all the necessary scripts based on the attributes of the body tag
 
-import { setFooterYear } from '$utils/footerYear';
-import { scrollToTop } from '$utils/scrollToTop';
-import { setReadTime } from '$utils/timeToRead';
+import { setHeaderStyles, setReadTime } from '$utils/blog';
+import { setFooterYear } from '$utils/footer';
+import { scrollToTop } from '$utils/miscellaneous';
 
 document.addEventListener('DOMContentLoaded', () => {
   const footerYearElement = document.querySelector('[eigo="footer-year"]') as HTMLElement | null;
@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
   if (readTimeElement) {
     setReadTime(readTimeElement);
+    setHeaderStyles(readTimeElement);
   }
 });
