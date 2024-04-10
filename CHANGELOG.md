@@ -1,5 +1,11 @@
 # @eigo/global-library
 
+## 1.0.3
+
+### Patch Changes
+
+- e57ab0f: Add to to read
+
 ## 1.0.1
 
 ### Patch Changes
