@@ -1,5 +1,11 @@
 # @eigo/global-library
 
+## 1.0.5
+
+### Patch Changes
+
+- 6fcbc1a: change h2 to h3 style
+
 ## 1.0.4
 
 ### Patch Changes
